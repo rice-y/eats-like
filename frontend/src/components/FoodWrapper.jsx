@@ -1,4 +1,3 @@
-// --- ここから追加 ---
 import React from 'react';
 import styled from 'styled-components';
 
@@ -56,5 +55,5 @@ export const FoodWrapper = ({
     <FoodImageNode src={imageUrl} />
   </Wrapper>
 )
-// --- ここまで追加 ---
+
 

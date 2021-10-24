@@ -1,4 +1,3 @@
-// --- ここから追加 ---
 import styled from 'styled-components';
 
 // constants
@@ -24,4 +23,4 @@ export const RoundButton = styled(BaseButton)`
   border: none;
   background-color: ${COLORS.SUB_BUTTON};
 `;
-// --- ここまで追加 ---
+

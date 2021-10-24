@@ -1,5 +1,5 @@
 import React, { Fragment, useReducer, useEffect } from 'react';
-// --- ここから追加 ---
+
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,6 @@ import { OrderDetailItem } from '../components/OrderDetailItem';
 import { OrderButton } from '../components/Buttons/OrderButton';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-// --- ここまで追加 ---
 
 // apis
 import { fetchLineFoods } from '../apis/line_foods';
@@ -21,7 +20,6 @@ import {
   lineFoodsReducer,
 } from '../reducers/lineFoods';
 
-// --- ここから追加 ---
 // images
 import MainLogo from '../images/logo.png';
 
@@ -85,11 +83,10 @@ export const Orders = () => {
         return '注文を確定する';
     }
   };
-  // --- ここまで追加 ---
 
   return (
     <Fragment>
-      
+
       <HeaderWrapper>
         <Link to="/restaurants">
           <MainLogoImage src={MainLogo} alt="main logo" />
@@ -133,7 +130,6 @@ export const Orders = () => {
           </div>
         </div>
       </OrderListWrapper>
-      
     </Fragment>
   )
 }

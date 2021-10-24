@@ -1,4 +1,3 @@
-// --- ここから追加 ---
 import React from 'react';
 
 // components
@@ -27,11 +26,10 @@ export const NewOrderConfirmDialog = ({
           新規の注文を開始して ${newResutaurautName} の商品を追加してください。`
         }
       </p>
-      {/* 先ほど作ったOrderButtonをここで使用 */}
       <OrderButton onClick={onClickSubmit}>
         新規注文
       </OrderButton>
     </DialogContent>
   </Dialog>
 );
-// --- ここまで追加 ---
+
