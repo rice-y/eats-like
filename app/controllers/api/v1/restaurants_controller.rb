@@ -1,4 +1,3 @@
-# --- ここから追加 ---
 module Api
   module V1
     class RestaurantsController < ApplicationController
@@ -12,4 +11,3 @@ module Api
     end
   end
 end
-# --- こ

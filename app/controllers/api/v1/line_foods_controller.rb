@@ -77,4 +77,4 @@ module Api
     end
   end
 end
-# --- ここまで追加 ---
+

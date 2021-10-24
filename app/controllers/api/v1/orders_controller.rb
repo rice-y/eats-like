@@ -1,4 +1,3 @@
-# --- ここから追加 ---
 module Api
   module V1
     class OrdersController < ApplicationController
@@ -15,8 +14,6 @@ module Api
         end
       end
 
-      
-
       private
 
       def total_price(posted_line_foods)
@@ -25,4 +22,4 @@ module Api
     end
   end
 end
-# --- ここまで追加 ---
+
