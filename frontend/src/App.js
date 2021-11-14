@@ -21,14 +21,14 @@ function App() {
           path="/restaurants">
           <Restaurants />
         </Route>
-        // フード一覧ページ
+        // フード一一覧
         <Route
           exact
           path="/foods"
         >
           <Foods />
         </Route>
-        // 注文ページ
+        // 注文する
         <Route
           exact
           path="/orders">
