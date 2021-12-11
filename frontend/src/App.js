@@ -15,20 +15,20 @@ function App() {
   return (
     <Router>
       <Switch>
-        // 店舗一覧ページ
+        // 店舗
         <Route
           exact
           path="/restaurants">
           <Restaurants />
         </Route>
-        // フード一一覧
+        // フード
         <Route
           exact
           path="/foods"
         >
           <Foods />
         </Route>
-        // 注文する
+        // 注文
         <Route
           exact
           path="/orders">
