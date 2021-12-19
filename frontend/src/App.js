@@ -44,10 +44,8 @@ function App() {
             />
         }
         />
-
       </Switch>
     </Router>
-
   );
 }
 
