@@ -44,7 +44,7 @@ const OrderListWrapper = styled.div`
 const OrderItemWrapper = styled.div`
   margin-bottom: 50px;
 `;
-// --- ここまで追加 ---
+
 
 export const Orders = () => {
   const [state, dispatch] = useReducer(lineFoodsReducer, initialState);
@@ -72,7 +72,6 @@ export const Orders = () => {
     window.location.reload();
   };
 
-  // --- ここから追加 ---
   const orderButtonLabel = () => {
     switch (state.postState) {
       case REQUEST_STATE.LOADING:
